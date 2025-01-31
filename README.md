@@ -98,10 +98,9 @@ This file contains the **backend logic** to handle process scheduling calculatio
 
 ---
 
-## License
-This project is open-source under the **MIT License**.
-
----
 
 ### 🔗 Connect with Me
 [LinkedIn](www.linkedin.com/in/httsheryar-ali-53349a219) | [GitHub](https://github.com/Sheryar-bit)
+
+###Owner
+Muhammad Sheryar
