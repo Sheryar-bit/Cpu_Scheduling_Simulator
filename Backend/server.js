@@ -17,6 +17,9 @@ mongoose.connect(process.env.MONGO_URI, {
 .then(() => console.log("Connected to MongoDB Atlas"))
 .catch(err => console.error("Error connecting to MongoDB:", err));
 
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/FrontEnd/index.html"); // Adjust the path to your HTML file
+});
 
 // Define a schema for our simulation results
 const ResultSchema = new mongoose.Schema({
