@@ -17,9 +17,11 @@ mongoose.connect(process.env.MONGO_URI, {
 .then(() => console.log("Connected to MongoDB Atlas"))
 .catch(err => console.error("Error connecting to MongoDB:", err));
 
-app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/FrontEnd/index.html"); // Adjust the path to your HTML file
-});
+// app.use(express.static(path.join(__dirname, "FrontEnd")));
+
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "FrontEnd", "index.html"));
+// });
 
 // Define a schema for our simulation results
 const ResultSchema = new mongoose.Schema({
@@ -399,5 +401,5 @@ app.delete("/past-results/:id", async (req, res) => {
 // Start the Server
 app.listen(port, () => {
   console.log(process.env.MONGO_URI)
-  console.log(`Server running at http://localhost:${port}`);
+  console.log(`Server running at https://cpu-scheduling-simulator-iota.vercel.app/${port}`);
 });

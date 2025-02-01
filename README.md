@@ -50,7 +50,7 @@ Ensure you have the following installed:
    ```sh
    node server.js
    ```
-   The backend will start at `http://localhost:3000`.
+   The backend will start at `https://cpu-scheduling-simulator-iota.vercel.app/`.
 
 5. **Open `index.html`**
    Simply open `index.html` in a browser to start using the simulator.
