@@ -2,8 +2,6 @@
 
 This is a **CPU Process Scheduling Simulator** that allows users to input processes and simulate different scheduling algorithms to compare their performance.
 
-[Live Demo](https://comforting-cajeta-b307bb.netlify.app/)
-
 ## Features
 - User-friendly interface to input processes
 - Supports multiple scheduling algorithms:
